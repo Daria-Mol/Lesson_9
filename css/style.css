@@ -1,0 +1,141 @@
+ @import "null.css"; 
+ /* =============================================================================================================================  */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+ /* ============================================================================================================================ */
+
+	.wrapper{
+	 min-height: 100%;
+	 overflow: hidden;
+	 font-family: 'Lato' , sans-serif;
+ 	}
+	/* ==============header =========================== */
+	.header {
+		text-align: center;
+		padding: 20px 0px;
+		font-size: 30px;
+		margin: 0px 0px 20px 0px;
+	}
+	.header p{
+		color: #39035e;
+		text-shadow: 0 0 10px rgb(109, 3, 170);
+	}
+	/* =======================main=========================== */
+	.main {
+		margin-bottom: 20px;
+	}
+	.container {
+		max-width: 810px;
+		margin: 0px auto;
+		padding: 5px;
+	}
+	.title {
+		color: #1E212C;
+		font-size: 46px;
+		font-weight: 900;
+		line-height: 1.3;
+		margin-bottom: 26px;
+	}
+	.data {
+		margin-bottom: 40px;
+		color: #787A80;
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	.data-month {
+		display: inline-block;
+		background: url('../img/icon/Calendar.svg') 0 1px/24px no-repeat;
+		padding: 0px 0px 0px 32px;
+		margin: 0px 24px 0px 0px;
+	}
+	.data-time {
+		display: inline-block;
+		background: url('../img/icon/time.svg') 0 1px/24px no-repeat;
+		padding: 0px 0px 0px 32px;
+
+	}
+	.data-share {
+		color: #1E212C;
+		font-weight: bold;
+		margin: 0px 0px 0px 47%;
+	}
+	.data-share img{
+		width: 24px;
+		height: 24px;
+		margin: 0px 5px 0px 0px;
+	}
+	.data-share img:last-child{
+		margin-right: 0;
+	}
+	picture{
+		display: block;
+		max-width: 810px;
+		margin: 0px 0px 60px 0px;
+	}
+	.content-parag1 {
+		margin-bottom: 24px;
+	}
+	.parag-bold {
+		font-size: 20px;
+		line-height: 1.5;
+		color: #1E212C;
+		font-weight: 700;
+	}
+	.content-parag2 {
+		margin-bottom: 30px;
+	}
+	.parag-med {
+		color: #424551;
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	.content-parag3 {
+		margin-bottom: 48px;
+	}
+	.content-parag4 {
+		margin-bottom: 48px;
+		background: url("../img/icon/braces.svg") 0 5px no-repeat;
+		padding: 0px 0px 0px 58px;
+		}
+	.content-parag5 {
+		margin-bottom: 24px;
+	}
+	.content-list {
+		margin-bottom: 24px;
+
+	}
+	.list-item {
+		margin-bottom: 4px;
+		background: url("../img/icon/check.svg")0 0 no-repeat;
+		padding: 0px 0px 0px 40px;
+	}
+	.content-list .list-item:last-child{
+		margin-bottom: 0;
+	}
+	.share {
+		max-width: 154px;
+		margin: 0px 0px 0px auto;
+	}
+	.share span{
+		font-size: 16px;
+		line-height: 1.6;
+		font-weight: 700;
+		margin: 0px 12px 0px 0px;
+	}
+	.share img{
+		width: 24px;
+		height: 24px;
+		margin: 0px 5px 0px 0px;
+	}
+	.share img:last-child{
+		margin-right: 0;
+	}
+/* ================footer======================= */
+
+.footer {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #39035e;
+	text-shadow: 3px 3px 5px rgb(109, 3, 170);
+}
+
